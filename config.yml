@@ -1,0 +1,18 @@
+# Database configuration
+database:
+  type: postgresql
+  host: localhost
+  port: 5432
+  username: micro_analytics
+  password: secret
+  database: micro_analytics
+
+# API server configuration
+api_server:
+  host: localhost
+  port: 5000
+
+# Logging configuration
+logging:
+  level: info
+  file: /var/log/micro_analytics.log
